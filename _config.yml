@@ -1,0 +1,12 @@
+title: Unboundprep
+description: One stop shop for all discussions
+url: https://unboundprep.com
+baseurl: /unboundprep
+
+
+include:
+    - _pages
+
+plugins:
+    - jekyll-seo-tag
+    - jekyll-sitemap
