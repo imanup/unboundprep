@@ -4,7 +4,7 @@ url: https://unboundprep.com
 discussion: //discussion.unboundprep.com
 blog: //blog.unboundprep.com
 #baseurl: /unboundprep
-
+enforce_ssl: unboundprep.com
 
 include:
     - _pages
