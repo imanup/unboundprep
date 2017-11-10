@@ -1,0 +1,19 @@
+
+.map {
+    background-image: url(/img/unboundprep-map.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 540px;
+    border: 2px solid #ECEEF0;
+    border-radius: 5px;
+}
+
+.form-group {
+    
+    .caret {
+        position: absolute;
+        right: 16px;
+        top: 16px;
+    }
+}
