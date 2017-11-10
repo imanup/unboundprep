@@ -24,7 +24,7 @@ body {
 }
 
 a {
-  color: #4AE3B5;
+  color: $brand-color;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -89,7 +89,7 @@ h4 {
     box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
   }
   #wj-header .navbar-brand {
-    color: #4AE3B5 !important;
+    color: $brand-color !important;
   }
   #wj-header #navbar li a {
     color: rgba(0, 0, 0, 0.5) !important;
@@ -98,7 +98,7 @@ h4 {
     transition: 0.3s;
   }
   #wj-header #navbar li a:hover {
-    color: #4AE3B5 !important;
+    color: $brand-color !important;
   }
   #wj-header #navbar li a span:before {
     background: transparent !important;
@@ -106,7 +106,7 @@ h4 {
   #wj-header #navbar li.active a {
     background: transparent;
     background: none;
-    color: #4AE3B5 !important;
+    color: $brand-color !important;
   }
   #wj-header #navbar li.active a span:before {
     visibility: visible;
@@ -135,7 +135,7 @@ h4 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #4AE3B5;
+  background-color: $brand-color;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   -moz-transform: scaleX(0);
@@ -178,7 +178,7 @@ h4 {
   color: #fff;
 }
 #wj-header .navbar-brand span {
-  color: #4AE3B5;
+  color: $brand-color;
 }
 #wj-header.navbar-fixed-top {
   position: fixed !important;
@@ -191,7 +191,7 @@ h4 {
   top: 0;
 }
 #wj-header.navbar-fixed-top .navbar-brand {
-  color: #4AE3B5;
+  color: $brand-color;
 }
 #wj-header.navbar-fixed-top #navbar li a {
   color: rgba(0, 0, 0, 0.5);
@@ -200,12 +200,12 @@ h4 {
   transition: 0.3s;
 }
 #wj-header.navbar-fixed-top #navbar li a:hover {
-  color: #4AE3B5;
+  color: $brand-color;
 }
 #wj-header.navbar-fixed-top #navbar li.active a {
   background: transparent;
   background: none;
-  color: #4AE3B5;
+  color: $brand-color;
 }
 #wj-header.navbar-fixed-top #navbar li.active a span:before {
   visibility: visible;
@@ -234,7 +234,7 @@ h4 {
   color: #adadad;
 }
 #wj-header .navbar-default .brand-slogan em {
-  color: #4AE3B5;
+  color: $brand-color;
   font-style: normal;
 }
 #wj-header a {
@@ -280,7 +280,7 @@ body {
   display: block;
   width: 80px;
   height: 2px;
-  background: #4AE3B5;
+  background: $brand-color;
   left: 50%;
   margin-left: -40px;
   bottom: 0;
@@ -345,7 +345,7 @@ body {
 }
 
 #wj-testimonials {
-  background: #4AE3B5;
+  background: $brand-color;
 /*   background: #ba78ff; */
 }
 #wj-testimonials .section-heading h2 {
@@ -401,7 +401,7 @@ body {
   width: 56px;
   height: 56px;
   margin-top: -30px;
-  background: #4AE3B5;
+  background: $brand-color;
   background: #ba78ff;
   display: none;
   -webkit-border-radius: 50%;
@@ -440,7 +440,7 @@ body {
   position: relative;
 }
 #wj-pricing .price-box.popular {
-  border: 2px solid #4AE3B5;
+  border: 2px solid $brand-color;
 }
 #wj-pricing .price-box.popular .popular-text {
   top: 0;
@@ -449,7 +449,7 @@ body {
   margin-top: -2em;
   position: absolute;
   padding: 4px 20px;
-  background: #4AE3B5;
+  background: $brand-color;
   color: #fff;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -463,7 +463,7 @@ body {
   left: 50%;
   margin-left: -10px;
   border-top: 10px solid black;
-  border-top-color: #4AE3B5;
+  border-top-color: $brand-color;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
 }
@@ -503,7 +503,7 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;  */
   position: relative;
-  background: #4AE3B5;
+  background: $brand-color;
 }
 .wj-cta .overlay {
   position: absolute;
@@ -669,7 +669,7 @@ body {
 }
 #wj-features .wj-service .wj-icon i {
   font-size: 40px;
-  color: #4AE3B5;
+  color: $brand-color;
 }
 #wj-features .wj-service .wj-desc {
   width: 80%;
@@ -741,7 +741,7 @@ body {
   bottom: 0;
   height: 2px;
   width: 30px;
-  background: #4AE3B5;
+  background: $brand-color;
 }
 #wj-press .wj-press-item .wj-press-img {
   position: absolute;
@@ -767,7 +767,7 @@ body {
   text-decoration: none;
 }
 .wj-nav-toggle.active i::before, .wj-nav-toggle.active i::after {
-  background: #4AE3B5;
+  background: $brand-color;
 }
 .wj-nav-toggle:hover, .wj-nav-toggle:focus, .wj-nav-toggle:active {
   outline: none;
@@ -781,18 +781,18 @@ body {
   *display: inline;
   width: 25px;
   height: 3px;
-  color: #4AE3B5;
+  color: $brand-color;
   font: bold 14px/.4 Helvetica;
   text-transform: uppercase;
   text-indent: -55px;
-  background: #4AE3B5;
+  background: $brand-color;
   transition: all .2s ease-out;
 }
 .wj-nav-toggle i::before, .wj-nav-toggle i::after {
   content: '';
   width: 25px;
   height: 3px;
-  background: #4AE3B5;
+  background: $brand-color;
   position: absolute;
   left: 0;
   -webkit-transition: 0.2s;
@@ -910,12 +910,13 @@ body {
 }
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
   box-shadow: none;
-  background: #333;
+  background: $brand-color;
 }
 .btn:hover, .btn:active, .btn:focus {
-  background: #393e46 !important;
+  background: $brand-color !important;
   color: #fff;
   outline: none !important;
+    border: 2px solid #444 !important;
 }
 .btn.btn-default:hover, .btn.btn-default:focus, .btn.btn-default:active {
   border-color: transparent;
@@ -960,9 +961,12 @@ body {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
+    &:hover{
+        
+    }
 }
 .social li a:hover {
-  background: #393e46 !important;
+  background: $brand-color !important;
 }
 .social.social-box a {
   background: #444;

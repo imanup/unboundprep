@@ -9,6 +9,10 @@ enforce_ssl: unboundprep.com
 include:
     - _pages
 
+
+sass:
+  style: compressed
+
 plugins:
     - jekyll-seo-tag
     - jekyll-sitemap
