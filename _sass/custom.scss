@@ -9,11 +9,36 @@
     border-radius: 5px;
 }
 
-.form-group {
-    
+/* .form-group {
     .caret {
         position: absolute;
         right: 16px;
         top: 16px;
     }
+}
+ */
+
+#back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 9999;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 30px;
+    color: #444;
+    border: 1px solid $brand-color;
+    cursor: pointer;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+}
+#back-to-top:hover {
+    background: $brand-color;
+    color: #fff;
+}
+#back-to-top.show {
+    opacity: 1;
 }
