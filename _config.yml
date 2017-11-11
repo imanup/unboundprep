@@ -6,6 +6,7 @@ blog: //blog.unboundprep.com
 #baseurl: /unboundprep
 enforce_ssl: unboundprep.com
 
+
 include:
     - _pages
 
