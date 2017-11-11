@@ -56,31 +56,8 @@ layout: compress
 	<!-- Owl Carousel -->
 	<script src="{{site.baseurl}}/js/owl.carousel.min.js"></script>
 	<!-- Main JS -->
-	<script src="{{site.baseurl}}/js/main.min.js"></script>	
-
-   
-    <script>
-    if ($('#back-to-top').length) {
-    var scrollTrigger = 100, 
-        backToTop = function () {
-            var scrollTop = $(window).scrollTop();
-            if (scrollTop > scrollTrigger) {
-                $('#back-to-top').addClass('show');
-            } else {
-                $('#back-to-top').removeClass('show');
-            }
-        };
-    backToTop();
-    $(window).on('scroll', function () {
-        backToTop();
-    });
-    $('#back-to-top').on('click', function (e) {
-        e.preventDefault();
-        $('html,body').animate({
-            scrollTop: 0
-        }, 700);
-    });
-}
-    </script>
+	<script src="{{site.baseurl}}/js/main.js"></script>	
+	<!-- Go to Top JS -->   
+    <script src="/js/go-to-top.js"></script>
 	</body>
 </html>
