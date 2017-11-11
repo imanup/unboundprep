@@ -315,10 +315,10 @@ body {
 #wj-about-us,
 #wj-features,
 #wj-testimonials,
-#wj-pricing,
+#wj-contact,
 #wj-press,
 #wj-product-screenshots,
-#wj-tour {
+#wj-description {
   padding: 7em 0;
 }
 @media screen and (max-width: 480px) {
@@ -326,18 +326,18 @@ body {
   #wj-about-us,
   #wj-features,
   #wj-testimonials,
-  #wj-pricing,
+  #wj-contact,
   #wj-press,
   #wj-product-screenshots,
-  #wj-tour {
+  #wj-description {
     padding: 5em 0;
   }
 }
 
-#wj-tour h3 {
+#wj-description h3 {
   font-size: 30px;
 }
-#wj-tour .img-feature-1 {
+#wj-description .img-feature-1 {
   -webkit-box-shadow: -1px -1px 58px -13px rgba(0, 0, 0, 0.9);
   -moz-box-shadow: -1px -1px 58px -13px rgba(0, 0, 0, 0.9);
   -ms-box-shadow: -1px -1px 58px -13px rgba(0, 0, 0, 0.9);
@@ -429,7 +429,7 @@ body {
   font-size: 16px;
 }
 
-#wj-pricing .price-box {
+#wj-contact .price-box {
   border: 2px solid #ECEEF0;
   /* text-align: center; */
   padding: 30px;
@@ -440,10 +440,10 @@ body {
   margin-bottom: 40px;
   position: relative;
 }
-#wj-pricing .price-box.popular {
+#wj-contact .price-box.popular {
   border: 2px solid $brand-color;
 }
-#wj-pricing .price-box.popular .popular-text {
+#wj-contact .price-box.popular .popular-text {
   top: 0;
   left: 50%;
   margin-left: -63px;
@@ -457,7 +457,7 @@ body {
   -ms-border-radius: 4px;
   border-radius: 4px;
 }
-#wj-pricing .price-box.popular .popular-text:after {
+#wj-contact .price-box.popular .popular-text:after {
   content: "";
   position: absolute;
   top: 100%;
@@ -468,7 +468,7 @@ body {
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
 }
-#wj-pricing .pricing-plan {
+#wj-contact .pricing-plan {
   margin: 0;
   padding: 0;
   font-size: 15px;
@@ -476,22 +476,22 @@ body {
   text-transform: uppercase;
   font-weight: 700;
 }
-#wj-pricing .price {
+#wj-contact .price {
   font-size: 50px;
   color: #000;
 }
-#wj-pricing .price .currency {
+#wj-contact .price .currency {
   font-size: 20px;
   top: -1.2em;
 }
-#wj-pricing .price small {
+#wj-contact .price small {
   font-size: 16px;
 }
-#wj-pricing .pricing-info {
+#wj-contact .pricing-info {
   padding: 0;
   margin: 0 0 30px 0;
 }
-#wj-pricing .pricing-info li {
+#wj-contact .pricing-info li {
   padding: 0;
   margin: 0;
   list-style: none;
