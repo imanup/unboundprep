@@ -311,7 +311,7 @@ body {
   transition: 0.3s;
 }
 
-#wj-our-services,
+#wj-our-story,
 #wj-about-us,
 #wj-features,
 #wj-testimonials,
@@ -322,7 +322,7 @@ body {
   padding: 7em 0;
 }
 @media screen and (max-width: 480px) {
-  #wj-our-services,
+  #wj-our-story,
   #wj-about-us,
   #wj-features,
   #wj-testimonials,
@@ -537,12 +537,12 @@ body {
   }
 }
 
-#wj-our-services,
+#wj-our-story,
 #wj-press {
   background: #f4f4f4;
 }
 
-#wj-our-services .box {
+#wj-our-story .box {
   text-align: center;
   color: #7f7f7f;
   margin-bottom: 70px;
@@ -551,12 +551,12 @@ body {
   width: 100%;
 }
 @media screen and (max-width: 768px) {
-  #wj-our-services .box {
+  #wj-our-story .box {
     min-height: inherit;
     margin-bottom: 90px;
   }
 }
-#wj-our-services .box .icon {
+#wj-our-story .box .icon {
   width: 85px;
   height: 85px;
   margin: 0 auto;
@@ -571,12 +571,12 @@ body {
   display: table;
   text-align: center;
 }
-#wj-our-services .box .icon > span {
+#wj-our-story .box .icon > span {
   display: table-cell;
   vertical-align: middle;
   width: 100%;
 }
-#wj-our-services .box .icon > span i {
+#wj-our-story .box .icon > span i {
   position: relative;
   float: left;
   margin-top: 5px;
@@ -586,55 +586,55 @@ body {
   margin: 0;
   padding: 0;
 }
-#wj-our-services .box .icon.colored-1 {
+#wj-our-story .box .icon.colored-1 {
   background: #2aaf67;
   background: transparent;
   border: 3px solid #2aaf67;
 }
-#wj-our-services .box .icon.colored-1 i {
+#wj-our-story .box .icon.colored-1 i {
   color: #2aaf67 !important;
 }
-#wj-our-services .box .icon.colored-2 {
+#wj-our-story .box .icon.colored-2 {
   background: #00bff3;
   background: transparent;
   border: 3px solid #00bff3;
 }
-#wj-our-services .box .icon.colored-2 i {
+#wj-our-story .box .icon.colored-2 i {
   color: #00bff3 !important;
 }
-#wj-our-services .box .icon.colored-3 {
+#wj-our-story .box .icon.colored-3 {
   background: #f26522;
   background: transparent;
   border: 3px solid #f26522;
 }
-#wj-our-services .box .icon.colored-3 i {
+#wj-our-story .box .icon.colored-3 i {
   color: #f26522 !important;
 }
-#wj-our-services .box .icon.colored-4 {
+#wj-our-story .box .icon.colored-4 {
   background: #e52b50;
   background: transparent;
   border: 3px solid #e52b50;
 }
-#wj-our-services .box .icon.colored-4 i {
+#wj-our-story .box .icon.colored-4 i {
   color: #e52b50 !important;
 }
-#wj-our-services .box .icon.colored-5 {
+#wj-our-story .box .icon.colored-5 {
   background: #2fc5cc;
   background: transparent;
   border: 3px solid #2fc5cc;
 }
-#wj-our-services .box .icon.colored-5 i {
+#wj-our-story .box .icon.colored-5 i {
   color: #2fc5cc !important;
 }
-#wj-our-services .box .icon.colored-6 {
+#wj-our-story .box .icon.colored-6 {
   background: #6173f4;
   background: transparent;
   border: 3px solid #6173f4;
 }
-#wj-our-services .box .icon.colored-6 i {
+#wj-our-story .box .icon.colored-6 i {
   color: #6173f4 !important;
 }
-#wj-our-services .box .step-number {
+#wj-our-story .box .step-number {
   font-size: 16px;
   display: block;
   color: #d1d1d1;
@@ -643,7 +643,7 @@ body {
   font-weight: 700;
   margin-bottom: 10px;
 }
-#wj-our-services .box h3 {
+#wj-our-story .box h3 {
   margin: 0 0 20px 0;
   padding: 0;
   font-weight: 400;
