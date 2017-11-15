@@ -92,7 +92,7 @@ h4 {
     color: $brand-color !important;
   }
   #wj-header #navbar li a {
-    color: rgba(0, 0, 0, 0.5) !important;
+    color: rgba(0, 0, 0, 0.7) !important;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
@@ -120,7 +120,7 @@ h4 {
 }
 #wj-header #navbar li a {
   font-family: $base-ff;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.7);
   position: relative;
 }
 #wj-header #navbar li a span {
