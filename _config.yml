@@ -7,6 +7,11 @@ blog: //blog.unboundprep.com
 enforce_ssl: unboundprep.com
 
 
+twitter: @something
+facebook:
+linkedin:
+instagram:
+
 include:
     - _pages
 
