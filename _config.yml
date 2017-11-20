@@ -7,10 +7,10 @@ blog: //blog.unboundprep.com
 enforce_ssl: unboundprep.com
 
 
-twitter: https://twitter.com/something
-# facebook:
-# linkedin:
-# instagram:
+twitter: https://twitter.com/
+facebook: https://facebook.com/
+linkedin: https://linkedin.com/
+instagram: https://instagram.com/
 
 include:
     - _pages
