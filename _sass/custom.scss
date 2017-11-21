@@ -60,3 +60,9 @@
 .item1 {
     background: $brand-color;
 }
+
+#slider {
+    @include media-query($on-palm) {
+        background: #5dade2;
+    }
+}
